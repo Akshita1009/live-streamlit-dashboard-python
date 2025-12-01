@@ -47,7 +47,7 @@ You can read your input data in a CSV by using `pd.read_csv()`. But remember, th
 
 Next, add the `pd.read_csv()` call within a new function `get_data()` so that it gets properly cached.
 
-What's caching? It's simple. Adding the decorator `@st.experimental_memo` will make the function `get_data()` run once. Then every time you rerun your app, the data will stay **memo**ized! This way you can avoid downloading the dataset again and again. Read more about caching [in Streamlit docs](https://docs.streamlit.io/library/api-reference/performance/st.experimental_memo?ref=blog.streamlit.io).
+What's caching? It's simple. Adding the decorator `@st.experimental_memo` will make the function `get_data()` run once. Then every time you rerun your app, the data will stay **memo**ized! This way you can avoid downloading the dataset again and again.
 
     dataset_url = "https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv"
     
@@ -351,6 +351,5 @@ This project is currently maintained by Akshita Mary John.
 
 Akshita is a Product Owner with 3+ years of experience, skilled in leading product strategy and driving development. She has a strong technical background, including proficiency in Python, which is leveraged in projects like this real-time dashboard.
 
-*   **GitHub**: [AnanditaNagpal](https://github.com/AnanditaNagpal)
 *   **LinkedIn**: [Akshita Mary John](https://www.linkedin.com/in/akshita-mary-john-35542a12a/)
 *   **Email**: a.john1009@gmail.com
